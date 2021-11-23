@@ -1,0 +1,119 @@
+/* ----------------------------- header section----------------------------- */
+
+.header {
+    padding: 6px 5px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background-color: var(--skin-color);
+}
+
+.header .logo {
+    width: 85%;
+}
+
+.header .logo a {
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    width: 120px;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.header .ham-cart {
+    display: flex;
+    width: 15%;
+    flex-direction: row;
+}
+
+.header .cart {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    justify-content: center;
+    transition: all 0.3s ease;
+    background-color: #fff;
+    margin-left: 10px;
+}
+
+.header .cart:after {
+    border-radius: 50%;
+}
+
+.header .cart i {
+    margin: auto;
+    font-size: 30px;
+}
+
+.header .user {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    justify-content: center;
+    transition: all 0.3s ease;
+    background-color: #fff;
+    margin-left: 10px;
+}
+
+.header .user:after {
+    border-radius: 50%;
+}
+
+.header .user i {
+    margin: auto;
+    font-size: 36px;
+}
+
+.header .hamburger-btn {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    justify-content: center;
+    transition: all 0.3s ease;
+    background-color: #fff;
+    margin-left: 10px;
+}
+
+.header .hamburger-btn:after {
+    border-radius: 50%;
+}
+
+.header .hamburger-btn span {
+    display: block;
+    height: 2px;
+    width: 16px;
+    background-color: var(--bg-black-900);
+    position: relative;
+}
+
+.header .hamburger-btn span:before,
+.header .hamburger-btn span:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-black-900);
+}
+
+.header .hamburger-btn span:before {
+    top: -6px;
+}
+
+.header .hamburger-btn span:after {
+    top: 6px;
+}

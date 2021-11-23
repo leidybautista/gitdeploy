@@ -1,0 +1,1 @@
+crear la base de datos con el nombre "carritocompras" luego importar la base de datos en esta carpeta para que funcione el programa
