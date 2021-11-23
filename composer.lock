@@ -1,0 +1,16 @@
+
+{
+            "name": "laravel/framework",
+            "version": "v5.8.37",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "ce08aaee3a0b8bb58b459b2decf7f25ba7b10fa4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/ce08aaee3a0b8bb58b459b2decf7f25ba7b10fa4",
+                "reference": "ce08aaee3a0b8bb58b459b2decf7f25ba7b10fa4",
+                "shasum": ""
+            }
+}
